@@ -1,0 +1,13 @@
+.logo {
+    /* Layout Properties */
+    top: 70px;
+    left: 215px;
+    width: 64px;
+    height: 27px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 20px/28px Avenir;
+    letter-spacing: 6px;
+    color: #5F5A5A;
+    opacity: 1;
+}

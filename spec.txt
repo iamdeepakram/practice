@@ -1,0 +1,21 @@
+- two design pages laptop and mobile
+- responsive design --> should see appropriate design layout on device screen size 
+- hover states for all the interactive elements on the page 
+- error message --> when form submitted 
+    --> input field is empty 
+    --> email address is not formatted correctly 
+
+
+Submission 
+ --> google form 
+
+
+Components: 
+- email address 
+    --> Input field 
+    --> submit button icon
+- text box 
+- 3 titles 
+- circle 
+- logoText 
+- show image
