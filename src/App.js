@@ -1,17 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/Header';
-import PromoImage from './components/promoimage/PromoImage';
 import EmailSubscription from './components/email/EmailSubscription';
+import girImg from './components/img/girlImg.png'
 
 function App() {
   return (
     <div className="App">
-      <div className='flex-container' >
-        <div className='flex-item-left' >
-          <PromoImage/>
+      <div className='container' >
+      <div className='container-item' >
+          <h1>BASE APPAREL</h1>
         </div>
-        <div className='flex-item-right' >
+        <div className='container-item' >
+          <img src={girImg}  className='image' ></img>
+        </div>
+        <div className='container-item' >
           <EmailSubscription/>
         </div>
       </div>
