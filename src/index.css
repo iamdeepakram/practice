@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'AvenirMedium';
+  src: local('AvenirMedium'), url(./fonts/AvenirMedium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'AvenirLight';
+  src: local('AvenirLight'), url(./fonts/AvenirLight.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'OpenSansSemiBold';
+  src: local('OpenSansSemiBold'), url(./fonts/OpenSans-SemiBold.ttf) format('ttf');
+ 
+}
