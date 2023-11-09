@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import girImg from './components/img/girlImg.png'
+import { RightOutlined } from '@ant-design/icons';
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <div className="App">
       <div className='container'>
         <div className='container-item item1 ' >
-         <span className='circle' ></span> <p className='header' >BASE APPAREL</p>
+         <span className='circle' ></span> <span className='header' >BASE APPAREL</span>
         </div>
         <div className='container-item item2 ' >
           <img src={girImg}  className='image' ></img>
@@ -29,8 +30,8 @@ function App() {
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem psum has been the industry’s standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
               <form>
-                <input type="email" placeholder="Email address" />
-                <button>></button>
+                <input className='input-email' type="email" placeholder="Email address" />
+                <button><RightOutlined  style={{olor: '#FFFFFF	' }} /></button>
               </form>
           </section>
         </div>
