@@ -9,7 +9,16 @@ function App() {
     <div className="App">
       <div className='container'>
         <div className='container-item item1 ' >
-         <span className='circle' ></span> <span className='header' >BASE APPAREL</span>
+        <div>
+         <div className='circle'></div>
+         <div  className='header' >
+
+         <div>BASE</div> 
+         <div>APPAREL</div> 
+         </div>
+
+         </div>
+
         </div>
         <div className='container-item item2 ' >
           <img src={girImg}  className='image' ></img>
@@ -31,7 +40,7 @@ function App() {
             </div>
               <form>
                 <input className='input-email' type="email" placeholder="Email address" />
-                <button><RightOutlined  style={{olor: '#FFFFFF	' }} /></button>
+                <button className='btn' ><RightOutlined  style={{olor: '#FFFFFF	' }} /></button>
               </form>
           </section>
         </div>
