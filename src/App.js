@@ -9,15 +9,12 @@ function App() {
     <div className="App">
       <div className='container'>
         <div className='container-item item1 ' >
-        <div>
-         <div className='circle'></div>
-         <div  className='header' >
-
-         <div>BASE</div> 
-         <div>APPAREL</div> 
-         </div>
-
-         </div>
+          <div className='header-container' >
+            <div className='circle hc-item1 '></div>
+            <div className='hc-item2'>BASE</div> 
+            <div className='hc-item3'>APPAREL</div> 
+            <div className='hc-item4' ></div>
+          </div>
 
         </div>
         <div className='container-item item2 ' >
